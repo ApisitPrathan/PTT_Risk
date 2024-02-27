@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>813bb0e7-c525-4532-b634-aecddc784bf4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PTTEP_Risk.Help\PTTEP_Risk.Help.csproj" />
+    <ProjectReference Include="..\PTTEP_Risk.Model\PTTEP_Risk.Model.csproj" />
+    <ProjectReference Include="..\PTTEP_Risk.Repo\PTTEP_Risk.Repo.csproj" />
+  </ItemGroup>
+
+
+</Project>
